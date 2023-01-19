@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> bootstrap landing page </title>
+    <!-- bootstrap styles  -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css"> 
+    <script src="https://kit.fontawesome.com/e392829b18.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     
+    <header>
+        <section class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#"> Home </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Link </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#"> Dropdown </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </section>
+    </header>
+
+    <main style="width: 80%;" class="container-fluid row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 mx-auto my-5 gx-3 gy-2">
+            <div class="col text-center">
+                <div class="card shadow-lg">
+                    <div class="position-relative">
+                        <img class="card-img-top" src="images/cover1.jpg" alt="">
+                        <img width="100px" class="z-index-1 position-absolute start-50 top-100 translate-middle border border-success rounded-circle bg-secondary " 
+                        src="images/images (1).jfif" alt="">
+                    </div>
+                    <div class="card-body mt-5 mx-2">
+                        <h5 class="card-title"> Card title </h5>
+                        <p class="card-text my-3"> 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit magnam, praesentium vitae facilis tenetur beatae autem, ipsam ab odit nemo quod alias blanditiis delectus vel dicta atque. Ipsum, accusantium ad.
+                        </p>
+                        <div style="width: 70%;" class="icons icons d-flex justify-content-evenly mx-auto">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card shadow-lg">
+                    <div class="position-relative">
+                        <img class="card-img-top" src="images/cover1.jpg" alt="">
+                        <img width="100px" class="z-index-1 position-absolute start-50 top-100 translate-middle border border-success rounded-circle bg-secondary " 
+                        src="images/images (1).jfif" alt="">
+                    </div>
+                    <div class="card-body mt-5 mx-2">
+                        <h5 class="card-title"> Card title </h5>
+                        <p class="card-text my-3"> 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit magnam, praesentium vitae facilis tenetur beatae autem, ipsam ab odit nemo quod alias blanditiis delectus vel dicta atque. Ipsum, accusantium ad.
+                        </p>
+                        <div style="width: 70%;" class="icons icons d-flex justify-content-evenly mx-auto">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center">
+                <div class="card shadow-lg">
+                    <div class="position-relative">
+                        <img class="card-img-top" src="images/cover1.jpg" alt="">
+                        <img width="100px" class="z-index-1 position-absolute start-50 top-100 translate-middle border border-success rounded-circle bg-secondary " 
+                        src="images/images (1).jfif" alt="">
+                    </div>
+                    <div class="card-body mt-5 mx-2">
+                        <h5 class="card-title"> Card title </h5>
+                        <p class="card-text my-3"> 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit magnam, praesentium vitae facilis tenetur beatae autem, ipsam ab odit nemo quod alias blanditiis delectus vel dicta atque. Ipsum, accusantium ad.
+                        </p>
+                        <div style="width: 70%;" class="icons icons d-flex justify-content-evenly mx-auto">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!-- bootstrap js link -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
